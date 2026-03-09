@@ -1,0 +1,64 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+/* Mobile First Styles */
+.header {
+  background: #2980b9;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  background: #e67e22;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #d35400;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .header {
+    text-align: left;
+  }
+  .button {
+    padding: 15px 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+  }
+}
