@@ -1,0 +1,1 @@
+{"name": "blr-property-breakeven", "version": "1.0.0", "description": "A property breakeven analysis tool.", "main": "index.js", "author": "Aasttha23", "license": "MIT", "dependencies": {"analytics": "^1.0.0", "stripe": "^8.0.0"}}
